@@ -15,7 +15,12 @@ import com.github.lc.oss.commons.util.IoTools;
 
 public class EncryptedConfigUtilTest extends AbstractMockTest {
     private enum TestKeys implements ConfigKey {
-        Key
+        Key;
+
+        @Override
+        public Class<?> type() {
+            return String.class;
+        }
     }
 
     private static class TestConfig extends EncryptedConfig {

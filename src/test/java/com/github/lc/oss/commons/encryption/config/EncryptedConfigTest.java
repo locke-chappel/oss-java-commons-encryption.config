@@ -12,7 +12,12 @@ import com.github.lc.oss.commons.testing.AbstractMockTest;
 public class EncryptedConfigTest extends AbstractMockTest {
     private enum TestKeys implements ConfigKey {
         Key1,
-        Key2
+        Key2;
+
+        @Override
+        public Class<?> type() {
+            return String.class;
+        }
     }
 
     private static class TestConfig extends EncryptedConfig {
