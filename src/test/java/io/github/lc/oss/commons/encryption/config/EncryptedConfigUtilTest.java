@@ -1,4 +1,4 @@
-package com.github.lc.oss.commons.encryption.config;
+package io.github.lc.oss.commons.encryption.config;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -9,9 +9,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import com.github.lc.oss.commons.encoding.Encodings;
-import com.github.lc.oss.commons.testing.AbstractMockTest;
-import com.github.lc.oss.commons.util.IoTools;
+import io.github.lc.oss.commons.encoding.Encodings;
+import io.github.lc.oss.commons.testing.AbstractMockTest;
+import io.github.lc.oss.commons.util.IoTools;
 
 public class EncryptedConfigUtilTest extends AbstractMockTest {
     private enum TestKeys implements ConfigKey {

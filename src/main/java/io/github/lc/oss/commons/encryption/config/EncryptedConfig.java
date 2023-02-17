@@ -1,10 +1,10 @@
-package com.github.lc.oss.commons.encryption.config;
+package io.github.lc.oss.commons.encryption.config;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.github.lc.oss.commons.util.TypedEnumCache;
+import io.github.lc.oss.commons.util.TypedEnumCache;
 
 public abstract class EncryptedConfig {
     public static class User {

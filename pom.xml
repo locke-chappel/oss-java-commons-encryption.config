@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>com.github.locke-chappel.oss.commons</groupId>
+        <groupId>io.github.locke-chappel.oss.commons</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -84,10 +84,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <argLine>
-                        --add-opens com.github.lc.oss.commons.encryption.config/com.github.lc.oss.commons.encryption.config=ALL-UNNAMED
-                        --add-opens com.github.lc.oss.commons.encryption.config/com.github.lc.oss.commons.encryption.config=com.fasterxml.jackson.databind
-                        --add-opens java.base/java.lang=com.github.lc.oss.commons.encryption.config
-                        --add-opens java.base/java.util=com.github.lc.oss.commons.encryption.config
+                        --add-opens io.github.lc.oss.commons.encryption.config/io.github.lc.oss.commons.encryption.config=ALL-UNNAMED
+                        --add-opens io.github.lc.oss.commons.encryption.config/io.github.lc.oss.commons.encryption.config=com.fasterxml.jackson.databind
+                        --add-opens java.base/java.lang=io.github.lc.oss.commons.encryption.config
+                        --add-opens java.base/java.util=io.github.lc.oss.commons.encryption.config
                         ${JacocoArgs}
                     </argLine>
                 </configuration>

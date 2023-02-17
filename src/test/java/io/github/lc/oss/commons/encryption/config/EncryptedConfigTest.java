@@ -1,4 +1,4 @@
-package com.github.lc.oss.commons.encryption.config;
+package io.github.lc.oss.commons.encryption.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.Map;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import com.github.lc.oss.commons.encryption.config.EncryptedConfig.User;
-import com.github.lc.oss.commons.testing.AbstractMockTest;
+import io.github.lc.oss.commons.encryption.config.EncryptedConfig.User;
+import io.github.lc.oss.commons.testing.AbstractMockTest;
 
 public class EncryptedConfigTest extends AbstractMockTest {
     private enum TestKeys implements ConfigKey {

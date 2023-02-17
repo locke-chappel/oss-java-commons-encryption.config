@@ -1,12 +1,12 @@
-package com.github.lc.oss.commons.encryption.config;
+package io.github.lc.oss.commons.encryption.config;
 
 import java.nio.charset.StandardCharsets;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.lc.oss.commons.encoding.Encodings;
-import com.github.lc.oss.commons.encryption.Ciphers;
-import com.github.lc.oss.commons.encryption.ephemeral.FileBackedCipher;
-import com.github.lc.oss.commons.util.IoTools;
+import io.github.lc.oss.commons.encoding.Encodings;
+import io.github.lc.oss.commons.encryption.Ciphers;
+import io.github.lc.oss.commons.encryption.ephemeral.FileBackedCipher;
+import io.github.lc.oss.commons.util.IoTools;
 
 public class EncryptedConfigUtil {
     private EncryptedConfigUtil() {

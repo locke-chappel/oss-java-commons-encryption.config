@@ -1,4 +1,4 @@
-package com.github.lc.oss.commons.encryption.config;
+package io.github.lc.oss.commons.encryption.config;
 
 public interface ConfigKey {
     String name();
